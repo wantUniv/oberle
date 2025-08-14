@@ -1,0 +1,170 @@
+{
+  "windowTypes": [
+    {
+      "id": 1,
+      "name": "平开窗",
+      "basePrice": 680,
+      "unit": "m²",
+      "description": "经典开启方式，密封性好",
+      "features": ["密封性优良", "隔音效果好", "安全可靠"]
+    },
+    {
+      "id": 2,
+      "name": "推拉窗",
+      "basePrice": 580,
+      "unit": "m²",
+      "description": "节省空间，操作简便",
+      "features": ["节省空间", "操作简便", "经济实用"]
+    },
+    {
+      "id": 3,
+      "name": "内开内倒",
+      "basePrice": 850,
+      "unit": "m²",
+      "description": "通风防雨，安全性高",
+      "features": ["通风防雨", "安全性高", "多功能开启"]
+    },
+    {
+      "id": 4,
+      "name": "推拉门",
+      "basePrice": 620,
+      "unit": "m²",
+      "description": "大开口，通透性好",
+      "features": ["大开口设计", "通透性好", "空间利用率高"]
+    },
+    {
+      "id": 5,
+      "name": "平开门",
+      "basePrice": 720,
+      "unit": "m²",
+      "description": "密封性佳，隔音效果好",
+      "features": ["密封性佳", "隔音效果好", "安全稳固"]
+    }
+  ],
+  "profiles": [
+    {
+      "id": 55,
+      "name": "55系列",
+      "priceFactor": 1.0,
+      "description": "经济实用型",
+      "thickness": "55mm",
+      "features": ["经济实用", "基础配置", "性价比高"]
+    },
+    {
+      "id": 70,
+      "name": "70系列",
+      "priceFactor": 1.3,
+      "description": "标准配置型",
+      "thickness": "70mm",
+      "features": ["标准配置", "性能均衡", "适用性广"]
+    },
+    {
+      "id": 80,
+      "name": "80系列",
+      "priceFactor": 1.5,
+      "description": "高性能型",
+      "thickness": "80mm",
+      "features": ["高性能", "隔热保温", "结构稳固"]
+    },
+    {
+      "id": 90,
+      "name": "90系列",
+      "priceFactor": 1.7,
+      "description": "豪华配置型",
+      "thickness": "90mm",
+      "features": ["豪华配置", "超强性能", "顶级品质"]
+    }
+  ],
+  "glassOptions": [
+    {
+      "id": "single",
+      "name": "单层玻璃",
+      "price": 0,
+      "description": "基础配置",
+      "thickness": "5mm",
+      "features": ["基础配置", "透光性好"]
+    },
+    {
+      "id": "double",
+      "name": "双层中空",
+      "price": 80,
+      "description": "隔音隔热",
+      "thickness": "5+12A+5",
+      "features": ["隔音隔热", "节能环保", "防结露"]
+    },
+    {
+      "id": "triple",
+      "name": "三玻两腔",
+      "price": 150,
+      "description": "超强隔热",
+      "thickness": "5+9A+5+9A+5",
+      "features": ["超强隔热", "极佳隔音", "高端配置"]
+    },
+    {
+      "id": "low-e",
+      "name": "Low-E玻璃",
+      "price": 120,
+      "description": "节能环保",
+      "thickness": "5+12A+5",
+      "features": ["节能环保", "阻挡紫外线", "保温性能好"]
+    },
+    {
+      "id": "laminated",
+      "name": "夹胶玻璃",
+      "price": 100,
+      "description": "安全防爆",
+      "thickness": "5+0.76PVB+5",
+      "features": ["安全防爆", "隔音效果好", "防盗性能强"]
+    }
+  ],
+  "hardwareOptions": [
+    {
+      "id": "standard",
+      "name": "标准五金",
+      "price": 0,
+      "description": "基础配置",
+      "brand": "国产品牌",
+      "features": ["基础配置", "经济实用", "质量可靠"]
+    },
+    {
+      "id": "imported",
+      "name": "进口五金",
+      "price": 300,
+      "description": "德国品牌",
+      "brand": "德国品牌",
+      "features": ["德国工艺", "精密制造", "使用寿命长"]
+    },
+    {
+      "id": "premium",
+      "name": "高端五金",
+      "price": 500,
+      "description": "顶级配置",
+      "brand": "欧洲顶级品牌",
+      "features": ["顶级配置", "超长寿命", "静音设计"]
+    }
+  ],
+  "openingCost": {
+    "first": 0,
+    "additional": 280,
+    "description": "首扇免费，每增加一扇加收280元"
+  },
+  "priceRules": {
+    "minWidth": 20,
+    "maxWidth": 300,
+    "minHeight": 20,
+    "maxHeight": 300,
+    "minArea": 0.04,
+    "maxArea": 9.0,
+    "currency": "CNY",
+    "taxRate": 0.13,
+    "validityDays": 30
+  },
+  "contactInfo": {
+    "phone": "400-123-4567",
+    "email": "quote@oberle.com",
+    "workingHours": "周一至周日 8:00-20:00",
+    "responseTime": "24小时内回复"
+  },
+  "lastUpdated": "2024-01-15",
+  "version": "1.0.0"
+}
